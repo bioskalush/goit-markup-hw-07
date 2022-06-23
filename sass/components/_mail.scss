@@ -1,13 +1,9 @@
-.footer-mail-box {
-  margin-left: 93px;
-}
-
-.mail-box {
+.mail {
   display: flex;
   align-items: center;
 }
 
-.input-mail {
+.mail__input {
   background-color: var(--footer-color);
   padding-left: 16px;
   width: 358px;
@@ -17,13 +13,13 @@
   border-radius: 4px;
 }
 
-.input-mail::placeholder {
+.mail__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mailing-button {
+.mail__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +38,6 @@
   color: var(--bg-color);
 }
 
-.mailing-icon {
+.mail__btn-icon {
   margin-left: 10px;
 }

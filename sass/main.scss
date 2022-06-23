@@ -1,11 +1,21 @@
-@import "./utils/vars";
-@import "./utils/reset";
-@import "./utils/allstyles";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/benefits";
-@import "./components/works";
-@import "./components/commands";
-@import "./components/partners";
-@import "./components/footer";
-@import "./components/subscription";
+@import "./utils/variables";
+@import "./utils/common";
+@import "./utils/hidden";
+
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/btn";
+@import "./components/title";
+@import "./components/social";
+@import "./components/mail";
+@import "./components/modal";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/works";
+@import "./layout/commands";
+@import "./layout/partners";
+@import "./layout/footer";
+@import "./layout/address";
